@@ -112,12 +112,6 @@
    "name" : "Curl_all_content_encodings"
   },
   {
-   "name" : "Curl_alpn_get_proxy_spec"
-  },
-  {
-   "name" : "Curl_alpn_get_spec"
-  },
-  {
    "name" : "Curl_alpn_set_negotiated"
   },
   {
@@ -208,7 +202,67 @@
    "name" : "Curl_base64url_encode"
   },
   {
+   "name" : "Curl_bufcp_free"
+  },
+  {
+   "name" : "Curl_bufcp_init"
+  },
+  {
    "name" : "Curl_buffer_send"
+  },
+  {
+   "name" : "Curl_bufq_free"
+  },
+  {
+   "name" : "Curl_bufq_init"
+  },
+  {
+   "name" : "Curl_bufq_init2"
+  },
+  {
+   "name" : "Curl_bufq_initp"
+  },
+  {
+   "name" : "Curl_bufq_is_empty"
+  },
+  {
+   "name" : "Curl_bufq_is_full"
+  },
+  {
+   "name" : "Curl_bufq_len"
+  },
+  {
+   "name" : "Curl_bufq_pass"
+  },
+  {
+   "name" : "Curl_bufq_peek"
+  },
+  {
+   "name" : "Curl_bufq_peek_at"
+  },
+  {
+   "name" : "Curl_bufq_read"
+  },
+  {
+   "name" : "Curl_bufq_reset"
+  },
+  {
+   "name" : "Curl_bufq_sipn"
+  },
+  {
+   "name" : "Curl_bufq_skip"
+  },
+  {
+   "name" : "Curl_bufq_slurp"
+  },
+  {
+   "name" : "Curl_bufq_space"
+  },
+  {
+   "name" : "Curl_bufq_write"
+  },
+  {
+   "name" : "Curl_bufq_write_pass"
   },
   {
    "name" : "Curl_bufref_free"
@@ -235,6 +289,9 @@
    "name" : "Curl_builtin_scheme"
   },
   {
+   "name" : "Curl_bump_headersize"
+  },
+  {
    "name" : "Curl_cache_addr"
   },
   {
@@ -242,9 +299,6 @@
   },
   {
    "name" : "Curl_cf_create"
-  },
-  {
-   "name" : "Curl_cf_def_close"
   },
   {
    "name" : "Curl_cf_def_cntrl"
@@ -256,13 +310,7 @@
    "name" : "Curl_cf_def_conn_keep_alive"
   },
   {
-   "name" : "Curl_cf_def_connect"
-  },
-  {
    "name" : "Curl_cf_def_data_pending"
-  },
-  {
-   "name" : "Curl_cf_def_destroy_this"
   },
   {
    "name" : "Curl_cf_def_get_host"
@@ -280,28 +328,19 @@
    "name" : "Curl_cf_def_send"
   },
   {
-   "name" : "Curl_cf_happy_eyeballs_create"
+   "name" : "Curl_cf_h1_proxy_insert_after"
   },
   {
    "name" : "Curl_cf_haproxy_insert_after"
   },
   {
-   "name" : "Curl_cf_http_connect_add"
-  },
-  {
-   "name" : "Curl_cf_http_connect_insert_after"
+   "name" : "Curl_cf_http_proxy_get_host"
   },
   {
    "name" : "Curl_cf_http_proxy_insert_after"
   },
   {
    "name" : "Curl_cf_https_setup"
-  },
-  {
-   "name" : "Curl_cf_is_socket"
-  },
-  {
-   "name" : "Curl_cf_setup_add"
   },
   {
    "name" : "Curl_cf_setup_insert_after"
@@ -340,6 +379,21 @@
    "name" : "Curl_chunked_strerror"
   },
   {
+   "name" : "Curl_client_add_writer"
+  },
+  {
+   "name" : "Curl_client_cleanup"
+  },
+  {
+   "name" : "Curl_client_create_writer"
+  },
+  {
+   "name" : "Curl_client_free_writer"
+  },
+  {
+   "name" : "Curl_client_unpause"
+  },
+  {
    "name" : "Curl_client_write"
   },
   {
@@ -364,16 +418,13 @@
    "name" : "Curl_conn_cf_connect"
   },
   {
-   "name" : "Curl_conn_cf_data_pending"
-  },
-  {
-   "name" : "Curl_conn_cf_discard"
-  },
-  {
    "name" : "Curl_conn_cf_discard_all"
   },
   {
    "name" : "Curl_conn_cf_discard_chain"
+  },
+  {
+   "name" : "Curl_conn_cf_discard_sub"
   },
   {
    "name" : "Curl_conn_cf_get_select_socks"
@@ -383,6 +434,9 @@
   },
   {
    "name" : "Curl_conn_cf_insert_after"
+  },
+  {
+   "name" : "Curl_conn_cf_is_ssl"
   },
   {
    "name" : "Curl_conn_cf_recv"
@@ -436,12 +490,6 @@
    "name" : "Curl_conn_get_socket"
   },
   {
-   "name" : "Curl_conn_haproxy_add"
-  },
-  {
-   "name" : "Curl_conn_http_proxy_add"
-  },
-  {
    "name" : "Curl_conn_is_alive"
   },
   {
@@ -466,16 +514,10 @@
    "name" : "Curl_conn_recv"
   },
   {
-   "name" : "Curl_conn_report_connect_stats"
-  },
-  {
    "name" : "Curl_conn_send"
   },
   {
    "name" : "Curl_conn_setup"
-  },
-  {
-   "name" : "Curl_conn_socks_proxy_add"
   },
   {
    "name" : "Curl_conn_tcp_accepted_set"
@@ -610,6 +652,48 @@
    "name" : "Curl_dyn_vprintf"
   },
   {
+   "name" : "Curl_dynhds_add"
+  },
+  {
+   "name" : "Curl_dynhds_add_custom"
+  },
+  {
+   "name" : "Curl_dynhds_cadd"
+  },
+  {
+   "name" : "Curl_dynhds_cget"
+  },
+  {
+   "name" : "Curl_dynhds_count"
+  },
+  {
+   "name" : "Curl_dynhds_free"
+  },
+  {
+   "name" : "Curl_dynhds_get"
+  },
+  {
+   "name" : "Curl_dynhds_getn"
+  },
+  {
+   "name" : "Curl_dynhds_h1_add_line"
+  },
+  {
+   "name" : "Curl_dynhds_h1_cadd_line"
+  },
+  {
+   "name" : "Curl_dynhds_h1_dprint"
+  },
+  {
+   "name" : "Curl_dynhds_init"
+  },
+  {
+   "name" : "Curl_dynhds_reset"
+  },
+  {
+   "name" : "Curl_dynhds_set_opts"
+  },
+  {
    "name" : "Curl_expire"
   },
   {
@@ -682,6 +766,18 @@
    "name" : "Curl_gmtime"
   },
   {
+   "name" : "Curl_h1_req_parse_free"
+  },
+  {
+   "name" : "Curl_h1_req_parse_init"
+  },
+  {
+   "name" : "Curl_h1_req_parse_read"
+  },
+  {
+   "name" : "Curl_h1_req_write_head"
+  },
+  {
    "name" : "Curl_hash_add"
   },
   {
@@ -719,6 +815,9 @@
   },
   {
    "name" : "Curl_headers_push"
+  },
+  {
+   "name" : "Curl_hexencode"
   },
   {
    "name" : "Curl_hmacit"
@@ -784,6 +883,9 @@
    "name" : "Curl_http_cookies"
   },
   {
+   "name" : "Curl_http_decode_status"
+  },
+  {
    "name" : "Curl_http_done"
   },
   {
@@ -805,10 +907,34 @@
    "name" : "Curl_http_output_auth"
   },
   {
+   "name" : "Curl_http_proxy_create_CONNECT"
+  },
+  {
+   "name" : "Curl_http_proxy_get_destination"
+  },
+  {
    "name" : "Curl_http_range"
   },
   {
    "name" : "Curl_http_readwrite_headers"
+  },
+  {
+   "name" : "Curl_http_req_free"
+  },
+  {
+   "name" : "Curl_http_req_make"
+  },
+  {
+   "name" : "Curl_http_req_make2"
+  },
+  {
+   "name" : "Curl_http_req_to_h2"
+  },
+  {
+   "name" : "Curl_http_resp_free"
+  },
+  {
+   "name" : "Curl_http_resp_make"
   },
   {
    "name" : "Curl_http_resume"
@@ -886,9 +1012,6 @@
    "name" : "Curl_is_in_callback"
   },
   {
-   "name" : "Curl_isunreserved"
-  },
-  {
    "name" : "Curl_llist_count"
   },
   {
@@ -905,9 +1028,6 @@
   },
   {
    "name" : "Curl_loadhostpairs"
-  },
-  {
-   "name" : "Curl_log_init"
   },
   {
    "name" : "Curl_md4it"
@@ -959,6 +1079,9 @@
   },
   {
    "name" : "Curl_multi_closed"
+  },
+  {
+   "name" : "Curl_multi_connchanged"
   },
   {
    "name" : "Curl_multi_handle"
@@ -1039,7 +1162,7 @@
    "name" : "Curl_ntlm_core_mk_ntlmv2_resp"
   },
   {
-   "name" : "Curl_num_addresses"
+   "name" : "Curl_nwrite"
   },
   {
    "name" : "Curl_once_resolved"
@@ -1127,6 +1250,9 @@
   },
   {
    "name" : "Curl_rand"
+  },
+  {
+   "name" : "Curl_rand_alnum"
   },
   {
    "name" : "Curl_rand_hex"
@@ -1279,9 +1405,6 @@
    "name" : "Curl_socket_close"
   },
   {
-   "name" : "Curl_socket_connect_result"
-  },
-  {
    "name" : "Curl_socket_open"
   },
   {
@@ -1327,9 +1450,6 @@
    "name" : "Curl_ssl_cfilter_add"
   },
   {
-   "name" : "Curl_ssl_cfilter_proxy_add"
-  },
-  {
    "name" : "Curl_ssl_cfilter_remove"
   },
   {
@@ -1360,9 +1480,6 @@
    "name" : "Curl_ssl_get_internals"
   },
   {
-   "name" : "Curl_ssl_get_primary_config"
-  },
-  {
    "name" : "Curl_ssl_get_select_socks"
   },
   {
@@ -1379,9 +1496,6 @@
   },
   {
    "name" : "Curl_ssl_kill_session"
-  },
-  {
-   "name" : "Curl_ssl_push_certinfo"
   },
   {
    "name" : "Curl_ssl_push_certinfo_len"
@@ -1441,6 +1555,9 @@
    "name" : "Curl_timediff"
   },
   {
+   "name" : "Curl_timediff_ceil"
+  },
+  {
    "name" : "Curl_timediff_us"
   },
   {
@@ -1468,10 +1585,16 @@
    "name" : "Curl_transferencode"
   },
   {
-   "name" : "Curl_uc_to_curlcode"
+   "name" : "Curl_trc_cf_infof"
   },
   {
-   "name" : "Curl_unencode_cleanup"
+   "name" : "Curl_trc_init"
+  },
+  {
+   "name" : "Curl_trc_opt"
+  },
+  {
+   "name" : "Curl_uc_to_curlcode"
   },
   {
    "name" : "Curl_unencode_write"
@@ -1484,6 +1607,9 @@
   },
   {
    "name" : "Curl_updatesocket"
+  },
+  {
+   "name" : "Curl_url_set_authority"
   },
   {
    "name" : "Curl_urldecode"
@@ -1594,6 +1720,9 @@
    "name" : "curl_global_sslset"
   },
   {
+   "name" : "curl_global_trace"
+  },
+  {
    "name" : "curl_maprintf"
   },
   {
@@ -1655,6 +1784,9 @@
   },
   {
    "name" : "curl_multi_fdset"
+  },
+  {
+   "name" : "curl_multi_get_handles"
   },
   {
    "name" : "curl_multi_info_read"
@@ -1847,6 +1979,9 @@
   },
   {
    "name" : "Curl_cfree"
+  },
+  {
+   "name" : "Curl_cft_h1_proxy"
   },
   {
    "name" : "Curl_cft_happy_eyeballs"
@@ -3054,7 +3189,7 @@
     },
     {
      "enum_field_value" : 290,
-     "name" : "CURLOPT_MAIL_RCPT_ALLLOWFAILS"
+     "name" : "CURLOPT_MAIL_RCPT_ALLOWFAILS"
     },
     {
      "enum_field_value" : 40291,
@@ -3185,7 +3320,11 @@
      "name" : "CURLOPT_QUICK_EXIT"
     },
     {
-     "enum_field_value" : 323,
+     "enum_field_value" : 10323,
+     "name" : "CURLOPT_HAPROXY_CLIENT_IP"
+    },
+    {
+     "enum_field_value" : 10324,
      "name" : "CURLOPT_LASTENTRY"
     }
    ],
@@ -4256,6 +4395,10 @@
      "name" : "CURLPROXY_HTTPS"
     },
     {
+     "enum_field_value" : 3,
+     "name" : "CURLPROXY_HTTPS2"
+    },
+    {
      "enum_field_value" : 4,
      "name" : "CURLPROXY_SOCKS4"
     },
@@ -4995,7 +5138,15 @@
      "name" : "CURLINFO_CAPATH"
     },
     {
-     "enum_field_value" : 62,
+     "enum_field_value" : 6291519,
+     "name" : "CURLINFO_XFER_ID"
+    },
+    {
+     "enum_field_value" : 6291520,
+     "name" : "CURLINFO_CONN_ID"
+    },
+    {
+     "enum_field_value" : 64,
      "name" : "CURLINFO_LASTONE"
     }
    ],
@@ -6398,6 +6549,18 @@
    "source_file" : "external/curl/include/curl/curl.h"
   },
   {
+   "function_name" : "curl_global_trace",
+   "linker_set_key" : "curl_global_trace",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIPKc"
+    }
+   ],
+   "return_type" : "_ZTI8CURLcode",
+   "source_file" : "external/curl/include/curl/curl.h"
+  },
+  {
    "function_name" : "curl_maprintf",
    "linker_set_key" : "curl_maprintf",
    "parameters" :
@@ -6725,6 +6888,18 @@
     }
    ],
    "return_type" : "_ZTI9CURLMcode",
+   "source_file" : "external/curl/include/curl/multi.h"
+  },
+  {
+   "function_name" : "curl_multi_get_handles",
+   "linker_set_key" : "curl_multi_get_handles",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "_ZTIP10Curl_multi"
+    }
+   ],
+   "return_type" : "_ZTIPP9Curl_easy",
    "source_file" : "external/curl/include/curl/multi.h"
   },
   {
@@ -7282,7 +7457,7 @@
      "referenced_type" : "_ZTIP9Curl_easy"
     }
    ],
-   "return_type" : "_ZTIP13curl_ws_frame",
+   "return_type" : "_ZTIPK13curl_ws_frame",
    "source_file" : "external/curl/include/curl/websockets.h"
   },
   {
@@ -7303,7 +7478,7 @@
      "referenced_type" : "_ZTIPj"
     },
     {
-     "referenced_type" : "_ZTIPP13curl_ws_frame"
+     "referenced_type" : "_ZTIPPK13curl_ws_frame"
     }
    ],
    "return_type" : "_ZTI8CURLcode",
@@ -7403,15 +7578,6 @@
    "self_type" : "_ZTIP13curl_mimepart",
    "size" : 4,
    "source_file" : "external/curl/include/curl/curl.h"
-  },
-  {
-   "alignment" : 4,
-   "linker_set_key" : "_ZTIP13curl_ws_frame",
-   "name" : "curl_ws_frame *",
-   "referenced_type" : "_ZTI13curl_ws_frame",
-   "self_type" : "_ZTIP13curl_ws_frame",
-   "size" : 4,
-   "source_file" : "external/curl/include/curl/websockets.h"
   },
   {
    "alignment" : 4,
@@ -7559,6 +7725,15 @@
   },
   {
    "alignment" : 4,
+   "linker_set_key" : "_ZTIPK13curl_ws_frame",
+   "name" : "const curl_ws_frame *",
+   "referenced_type" : "_ZTIK13curl_ws_frame",
+   "self_type" : "_ZTIPK13curl_ws_frame",
+   "size" : 4,
+   "source_file" : "external/curl/include/curl/websockets.h"
+  },
+  {
+   "alignment" : 4,
    "linker_set_key" : "_ZTIPK15curl_easyoption",
    "name" : "const curl_easyoption *",
    "referenced_type" : "_ZTIK15curl_easyoption",
@@ -7649,10 +7824,19 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPP13curl_ws_frame",
-   "name" : "curl_ws_frame **",
-   "referenced_type" : "_ZTIP13curl_ws_frame",
-   "self_type" : "_ZTIPP13curl_ws_frame",
+   "linker_set_key" : "_ZTIPP9Curl_easy",
+   "name" : "Curl_easy **",
+   "referenced_type" : "_ZTIP9Curl_easy",
+   "self_type" : "_ZTIPP9Curl_easy",
+   "size" : 4,
+   "source_file" : "external/curl/include/curl/multi.h"
+  },
+  {
+   "alignment" : 4,
+   "linker_set_key" : "_ZTIPPK13curl_ws_frame",
+   "name" : "const curl_ws_frame **",
+   "referenced_type" : "_ZTIPK13curl_ws_frame",
+   "self_type" : "_ZTIPPK13curl_ws_frame",
    "size" : 4,
    "source_file" : "external/curl/include/curl/websockets.h"
   },
@@ -7731,6 +7915,16 @@
  ],
  "qualified_types" :
  [
+  {
+   "alignment" : 8,
+   "is_const" : true,
+   "linker_set_key" : "_ZTIK13curl_ws_frame",
+   "name" : "const curl_ws_frame",
+   "referenced_type" : "_ZTI13curl_ws_frame",
+   "self_type" : "_ZTIK13curl_ws_frame",
+   "size" : 32,
+   "source_file" : "external/curl/include/curl/websockets.h"
+  },
   {
    "alignment" : 4,
    "is_const" : true,
